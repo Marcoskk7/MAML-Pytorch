@@ -1,5 +1,54 @@
-backup
-miniimagenet
-omniglot
-.idea
-__pycache__
+backup/
+miniimagenet/
+omniglot/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model artifacts / datasets (common)
+checkpoints/
+wandb/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+
+# Archives (must include all .zip)
+*.zip
+*.zip:Zone.Identifier
